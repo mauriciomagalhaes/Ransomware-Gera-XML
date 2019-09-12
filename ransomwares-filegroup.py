@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-import requests, json, os, sys, subprocess
+import requests, json, os
 
 try:
     req = requests.get('https://fsrm.experiant.ca/api/v1/combined')
@@ -24,8 +24,10 @@ for patt in rans:
 doc = ET.SubElement(fgp, "NonMembers")
 
 tree = ET.ElementTree(root)
-tree.write("rans2.xml", short_empty_elements=False, xml_declaration=True, encoding='utf16', method="xml")
+tree.write("rans.xml", short_empty_elements=False, xml_declaration=True, encoding='utf16')
 
-# Descomentar abaixo para inserir no FILEGROUP do win2k8 ou 2k8r2
+# Caminho do diretorio windows
+# tree.write("C:\\TEMP\\rans.xml", short_empty_elements=False, xml_declaration=True, encoding='utf16')
 
-#os.system("C:\System32\filescrn.exe f i /FIle:C:\Temp\rans2.xml /Overwrite")
+# Execute o comando abaixo no windows 2k8 / 2k8r2
+# "C:\System32\filescrn.exe f i /FIle:C:\Temp\rans.xml /Overwrite"
