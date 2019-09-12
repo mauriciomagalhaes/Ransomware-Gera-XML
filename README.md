@@ -17,7 +17,7 @@
     2 - Execute o comando e modifique <PATH> no windows 2k8/2k8r2
     # filescrn.exe f i /File:C:\<PATH>\rans.xml /Overwrite 
     
-    3 - Configure o File Server Resorce Manager e negue File Group Ransomware_Extensions
+    3 - Configure o "File Server Resorce Manager" e negue File Group: Ransomware_Extensions
     
     
     
