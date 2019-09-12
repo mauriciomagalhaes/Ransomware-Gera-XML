@@ -10,7 +10,8 @@
   pip install -r requirements.txt
   
 # Instalação
-
+    # edite o arquivo ransomwares-filegroup.py
+    
     # Mudar Caminho padrão do diretorio windows na última linha
     # tree.write("C:\\TEMP\\rans.xml", short_empty_elements=False, xml_declaration=True, encoding='utf16')
 
