@@ -1,6 +1,6 @@
 # Ransomware-filegroup
 
-> Gera o arquvio XML responsável por popular uma base de extesões ransomwares não permitidas no filegroup do winddows Server 2008 / 2008 r2. 
+> Gera um arquvio XML responsável por popular a base de extesões ransomwares não permitidas no filegroup do Windows Server 2008 / 2008 r2. 
 
 ## Requisistos:
 
